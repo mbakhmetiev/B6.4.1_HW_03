@@ -1,0 +1,8 @@
+mysql_databases:
+  - name: skillfactory
+mysql_root_password: "toordev00ps"
+mysql_users:
+  - name: devops
+    host: "%"
+    password: dev00ps
+    priv: "skillfactory.*:ALL"
